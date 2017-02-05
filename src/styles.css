@@ -1,1 +1,580 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 500px;
+}
+
+img.logo-acca {
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#home-content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+md-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.acca-brand-text {
+    font-size: 14px;
+    float: left;
+    padding-left: 5px;
+    text-align: justify;
+    text-align-last: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.acca-navbrand {
+    margin-right: -10px;
+}
+
+
+/* Colores de la Nav Bar del Header */
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #73e912;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #73e912;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.navbar-default .navbar-brand {
+    color: #000111;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000460;
+}
+
+.navbar-default .navbar-text {
+    color: #000111;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000111;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #000460;
+    background-color: #73e912;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-default .navbar-nav>li>.dropdown-menu {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>.dropdown-menu>li>a {
+    color: #000111;
+}
+
+.navbar-default .navbar-nav>li>.dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>li>.dropdown-menu>li>a:focus {
+    color: #000460;
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-nav>li>.dropdown-menu>li>.divider {
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #000460;
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #000460;
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #000460;
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #73e912;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #73e912;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #c0c0c0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #c0c0c0;
+}
+
+
+/* Inicio de Footer CSS */
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 30px 50px;
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 18px 'Cookie', cursive;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i,
+.footer-distributed .footer-left i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope,
+.footer-distributed .footer-left i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p,
+.footer-distributed .footer-left p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span,
+.footer-distributed .footer-left p span {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a,
+.footer-distributed .footer-left p a {
+    color: #5383d3;
+    text-decoration: none;
+    ;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 12px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+
+/* Fin de Footer CSS */
+
+
+/* Botones Sociales */
+
+a.btn-social,
+.btn-social {
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    webkit-transition: background-color .3s;
+    width: 54px;
+}
+
+.btn-social .fa,
+.btn-social i {
+    backface-visibility: hidden;
+    moz-backface-visibility: hidden;
+    ms-transform: scale(1.1);
+    o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .25s;
+    webkit-backface-visibility: hidden;
+    webkit-transform: scale(1.1);
+    webkit-transition: all .25s;
+}
+
+.btn-social:hover,
+.btn-social:focus {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-social:hover .fa,
+.btn-social:hover i {
+    ms-transform: scale(1.9);
+    o-transform: scale(1.9);
+    transform: scale(1.9);
+    webkit-transform: scale(1.9);
+}
+
+.btn-social.btn-xs {
+    font-size: 9px;
+    height: 24px;
+    line-height: 13px;
+    margin: 6px 2px;
+    width: 24px;
+}
+
+.btn-social.btn-sm {
+    font-size: 13px;
+    height: 36px;
+    line-height: 18px;
+    margin: 6px 2px;
+    width: 36px;
+}
+
+.btn-social.btn-lg {
+    font-size: 22px;
+    height: 72px;
+    line-height: 40px;
+    margin: 10px 6px;
+    width: 72px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-facebook:hover {
+    background-color: #4c70ba;
+}
+
+.btn-instagram {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d400e8+0,e9ed00+8,bf2495+46,8a51db+80,db36a4+100 */
+    background: #d400e8;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d400e8', endColorstr='#db36a4', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.btn-instagram:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d400e8+0,e9ed00+8,bf2495+46,8a51db+80,db36a4+100 */
+    background: #d400e8;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #d400e8 0%, #e9ed00 8%, #bf2495 46%, #8a51db 80%, #db36a4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d400e8', endColorstr='#db36a4', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.btn-email {
+    background-color: #44c456;
+}
+
+.btn-email:hover {
+    background-color: #6bd079;
+}
+
+
+/* Fin de Botones Sociales */
+
+
+/* Ajuste de Nav-Bar Responsive */
+
+@media (min-width: 1174px) and (max-width: 1211px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 13px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    .acca-brand-text {
+        font-size: 13px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (min-width: 1119px) and (max-width: 1174px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 12px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    .acca-brand-text {
+        font-size: 12px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (min-width: 1067px) and (max-width: 1119px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 11px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    .acca-brand-text {
+        font-size: 11px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (min-width: 910px) and (max-width: 1067px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 11px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    #nav-aboutus {
+        display: none;
+    }
+    .acca-brand-text {
+        font-size: 11px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (min-width: 808px) and (max-width: 910px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 11px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    #nav-aboutus {
+        display: none;
+    }
+    #nav-contacto {
+        display: none;
+    }
+    .acca-brand-text {
+        font-size: 11px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 808px) {
+    .navbar-default {
+        color: #000111;
+        font-size: 9px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #73e912;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    #nav-aboutus {
+        display: none;
+    }
+    #nav-contacto {
+        display: none;
+    }
+    .acca-brand-text {
+        font-size: 9px;
+        float: left;
+        padding-left: 5px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #000111;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #000460;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #000460;
+        background-color: #73e912;
+    }
+}
