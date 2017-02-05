@@ -12,16 +12,16 @@ body {
     min-width: 500px;
 }
 
+#all-content {
+    width: 95%;
+    margin: 15px auto;
+}
+
 img.logo-acca {
     height: 40px;
     float: left;
     margin-top: -10px;
     margin-left: -10px;
-}
-
-#home-content {
-    width: 95%;
-    margin: 0 auto;
 }
 
 md-card {
