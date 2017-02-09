@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 html {
     overflow-y: scroll;
 }
@@ -9,7 +8,7 @@ html {
 body {
     padding-top: 10px;
     padding-bottom: 10px;
-    min-width: 500px;
+    min-width: 650px;
 }
 
 #all-content {
@@ -17,18 +16,121 @@ body {
     margin: 15px auto;
 }
 
+md-card,
+div>div>md-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    text-align: center
+}
+
+
+/* Pagina de Contacto */
+
+#contact-content {
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.15);
+    display: inline;
+    text-align: justify;
+    text-align-last: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contact-content>h1 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#contact-content>p {
+    font-size: 15px;
+}
+
+div.contacto-form {
+    align-content: center;
+    display: inline-block;
+}
+
+img.contacto {
+    height: 100px;
+    float: left;
+}
+
+img.img-casamance {
+    height: 35px;
+    display: inline-block;
+    margin-left: -20px;
+}
+
+img.img-camengo {
+    height: 25px;
+    display: inline-block;
+    margin-left: -20px;
+}
+
+span.input-group-addon {
+    width: auto;
+    background-color: #95d598;
+}
+
+div.input-group>input.input-width,
+div.input-group>textarea.input-width {
+    width: 280px;
+}
+
+label.checkbox-inline,
+input[type="checkbox"] {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+
+/* Fin de Pagina de Contacto*/
+
+
+/* Inicio Pagina About Us*/
+
+.container-jumbo {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.jumbo-aboutus {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    opacity: 0.2;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.jumbo-text {
+    color: #D0E100;
+    text-shadow: 0px 0px 5px #68DC43, 0px 0px 7px black;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* Fin de Pagina About Us*/
+
+
+/* Logo de Ambiente */
+
 img.logo-acca {
     height: 40px;
     float: left;
     margin-top: -10px;
     margin-left: -10px;
-}
-
-md-card {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: 1px;
-    border-radius: 5px;
 }
 
 .acca-brand-text {
@@ -576,5 +678,18 @@ a.btn-social,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
         color: #000460;
         background-color: #73e912;
+    }
+    #contact-content>h1 {
+        font-size: 30px;
+    }
+    .jumbo-text {
+        color: #D0E100;
+        text-shadow: 0px 0px 5px #68DC43, 0px 0px 7px black;
+        position: absolute;
+        left: 0;
+        top: 35%;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
     }
 }
