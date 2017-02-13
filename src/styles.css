@@ -47,8 +47,11 @@ div>div>md-card {
 }
 
 div.contacto-form {
+    align-items: center;
     align-content: center;
+    text-align: center;
     display: inline-block;
+    margin: auto;
 }
 
 img.contacto {
@@ -101,11 +104,11 @@ input[type="checkbox"] {
     height: 450px;
     margin: auto;
     opacity: 0.2;
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
 
 .jumbo-text {
@@ -113,7 +116,7 @@ input[type="checkbox"] {
     text-shadow: 0px 0px 5px #68DC43, 0px 0px 7px black;
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 25%;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -687,7 +690,7 @@ a.btn-social,
         text-shadow: 0px 0px 5px #68DC43, 0px 0px 7px black;
         position: absolute;
         left: 0;
-        top: 35%;
+        top: 25%;
         margin-left: 20px;
         margin-right: 20px;
         text-align: center;
